@@ -1,0 +1,15 @@
+Keras==2.4.3
+keras-layer-normalization==0.14.0
+keras-nightly==2.5.0.dev2021032900
+Keras-Preprocessing==1.1.2
+tensorboard==2.5.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.0
+tensorflow==2.3.0
+tensorflow-datasets==4.1.0
+tensorflow-gpu-estimator==2.3.0
+tensorflow-metadata==0.26.0
+tf-estimator-nightly==2.4.0.dev2020102301
+tf-nightly==2.6.0.dev20210606
+tf-nightly-gpu==2.4.0.dev20201023
+
