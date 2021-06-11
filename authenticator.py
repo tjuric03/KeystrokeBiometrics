@@ -28,6 +28,7 @@ class Subject():
             msg = f"Subject with name \"{self.name}\" does not exist"
             raise NameError(msg)
         self.scaler = pickle.load(open(os.path.join(path,"scaler.pickle"), 'rb'))
+        self.scaler.clip = False
         self.best_threshold = pickle.load(open(os.path.join(path,"best_threshold.pickle"), 'rb'))
         self.autoencoder = tf.keras.models.load_model(os.path.join(path,"autoencoder"))
 
